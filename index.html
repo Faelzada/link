@@ -1,13 +1,24 @@
-<!doctype html>
-  <HTML LANG="PT-BR">
-    <head>
-      <meta charset="UTF-8"
-      <meta name="viewport"content="width=divice-wid7h initial-scale 1.0">
-      <title> Fael </title>
-      <link rel="shortcut icon" type="image/jpg" href="red_dead_redemption.png">
-    </head>
-    <body>
-      <h1> Suculento`s Redemption </h1>
-    <p1> <a href="https://blog.plantei.com.br/como-cuidar-de-suculentas-corretamente/" target="_blank"> cuide de suas suculentas </a> </p1>
-    </body>
-  </HTML>
+<!Doctype html>
+<HTML LANG="PT-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculadora </title>
+    <link rel="shortcut icon" type="image/jpg" href="on.png">
+  </head>
+  <body>
+    <script>
+      var nome = window.prompt('Qual é o seu nome?');
+      var num = nome.length;
+      var A = Number(window.prompt("digite A"));
+      var B = Number(window.prompt("digite B"));
+      var C = Number(window.prompt("digite C"));
+      var delta = B*B-4*A*C;
+      var baskn = (-B + Math.sqrt(delta)) / (2*A);
+      var baskp = (-B - Math.sqrt(delta)) / (2*A);
+      window.alert(" O resultado positivo é " + baskp);
+      window.alert(" O resultado negativo é " + baskn);
+      window.alert(" O seu nome é " + nome + " e seu nome tem " + num + " letras.");
+    </script>
+  </body>
+</HTML>
